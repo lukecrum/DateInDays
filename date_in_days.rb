@@ -1,6 +1,6 @@
 class DateInDays
   attr_accessor :date, :month, :year
-  def initialize(opts = {})
+  def initialize(date, month, year, days_to_pass)
     @date = date
     @month = month
     @year = year
@@ -66,4 +66,7 @@ class DateInDays
     end
     @year = @year.to_i
   end
+  def date; @date; end
+  def month; @month; end
+  def year; @year; end
 end

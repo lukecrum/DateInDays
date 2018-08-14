@@ -14,8 +14,11 @@ Create a new insrance of DateInDays
 date = DateInDays.new([Date], [Month], [Year], [Days to Pass])
 ```
 `Date (Integer)` - Starting day
+
 `Month (String)` - Starting month
+
 `Year (Integer)` - Starting year
+
 `Days to Pass (Integer)` - Number of days to pass
 
 To get the values:

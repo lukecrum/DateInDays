@@ -11,12 +11,12 @@ require_relative 'date_in_days.rb'
 
 Create a new insrance of DateInDays
 ```rb
-date = DateInDays.new(date: 14, month: 'August', year: 2018, 365)
+date = DateInDays.new([Date], [Month], [Year], [Days to Pass])
 ```
-`Date` - Starting day
-`Month` - Starting month
-`Year` - Starting year
-`[days_to_pass]` - Number of days to pass
+`Date (Integer)` - Starting day
+`Month (String)` - Starting month
+`Year (Integer)` - Starting year
+`Days to Pass (Integer)` - Number of days to pass
 
 To get the values:
 ```rb

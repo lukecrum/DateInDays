@@ -23,7 +23,7 @@ date = DateInDays.new([Date], [Month], [Year], [Days to Pass])
 
 To get the values:
 ```rb
-date.date # Integer for date
-date.month # String for month
-date.year # Integer for year
+date.date # Integer for new date
+date.month # String for new month
+date.year # Integer for new year
 ```
